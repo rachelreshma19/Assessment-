@@ -1,0 +1,73 @@
+Project : STEP 1 : Manual QA tasks 
+
+
+1.Create high level Test Plan for "Rent a car" functionality of https://www.lyft.com/rider/rentals.
+
+
+Test Plan: Lyft "Rent a Car" Functionality
+
+1. Introduction
+
+1.1 Purpose
+The purpose of this test plan is to ensure the quality and reliability of the "Rent a Car" functionality on Lyft's website (https://www.lyft.com/rider/rentals).
+
+1.2 Scope:
+This test plan covers the testing of the "Rent a Car" feature, including the following aspects:
+- User interface and user experience.
+- Functionality of searching for and booking rental cars.
+- Integration with payment processing.
+- Mobile and desktop compatibility.
+- Data accuracy and security.
+- Performance and load testing (if applicable).
+
+1.3 Objectives:
+The main objectives of this testing effort are to:
+- Identify and report defects in the "Rent a Car" functionality.
+- Validate that the feature works as expected across different platforms and browsers.
+- Ensure the security and privacy of user data.
+- Evaluate the performance under various load conditions (if applicable).
+- Assess the user-friendliness and responsiveness of the feature.
+
+2. Test Strategy
+
+2.1 Test Types:
+The following test types will be conducted:
+- Functional Testing: To verify the functionality of booking and managing rental cars.
+- Usability Testing: To evaluate the user experience.
+- Security Testing: To identify vulnerabilities and ensure data security.
+- Compatibility Testing: To ensure cross-browser and cross-device compatibility.
+- Performance Testing (if applicable): To assess system performance under different load conditions.
+
+2.2 Test Environment:
+The test environment will include various browsers (Chrome, Firefox, Safari), mobile devices (iOS and Android), and desktop platforms (Windows, macOS).
+
+2.3 Test Data:
+Test data will include valid and invalid user inputs, payment information, and test scenarios to cover various use cases.
+
+3 Test Execution
+
+3.1 Test Execution Schedule:
+- Specify the timeline for test execution, including start and end dates.
+
+3.2 Defect Reporting:
+- Define the process for reporting and tracking defects.
+- Assign severity levels to reported defects.
+
+4. Test Deliverables
+
+4.1 Test Reports:
+- Provide detailed test execution reports.
+- Include summaries of test cases executed, defects found, and any deviations from expected behavior.
+
+4.2 Test Artifacts:
+- Include test scripts, test data sets, and any automation scripts used.
+
+5. Risks and Contingencies
+
+Identify potential risks and provide contingency plans for addressing them. Risks may include unexpected system downtime, security breaches, or performance bottlenecks.
+
+
+2. Describe in details at least 2 the most critical scenarios (1 positive and 1 negative) to test “Rent a car” form functionality of https://www.lyft.com/rider/rentals.
+
+Positive scenario : - Verify whether a registered user can rent a car from https://www.lyft.com/rider/rentals.
+Negative scenario : - Try to rent a car with a payment method that does not have sufficient funds to cover the rental costs, causing a payment failure.
